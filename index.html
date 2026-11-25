@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Kunal Vijay — software engineer building reliable distributed systems." />
+  <title>Kunal Vijay — Systems Builder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to world</a>
+  <div class="sky" aria-hidden="true"><div class="sun"></div><div class="cloud c1"></div><div class="cloud c2"></div><div class="mountains"></div></div>
+
+  <header class="hud">
+    <a class="brand" href="#spawn" aria-label="Back to spawn"><span class="brand-cube">KV</span><span>KUNAL.WORLD</span></a>
+    <nav aria-label="World navigation">
+      <a href="#education">Education</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#inventory">Skills</a>
+    </nav>
+    <div class="header-actions"><a class="download-link" href="KunalVijay-Resume.pdf" download>Download résumé</a><a class="pixel-button small" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kunalvijay1101%40gmail.com" target="_blank" rel="noreferrer">Email Kunal</a></div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="spawn">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> PLAYER ONLINE · SOFTWARE ENGINEER</p>
+        <h1>I BUILD SYSTEMS<br><span>THAT DON'T DESPAWN.</span></h1>
+        <p class="lede">Hey, I’m Kunal — a backend-focused engineer crafting fast, observable and reliable software with Go, distributed systems and cloud infrastructure.</p>
+        <div class="hero-actions"><a class="pixel-button" href="#education">Enter world</a><a class="text-link" href="KunalVijay-Resume.pdf" download>Collect résumé <span>[E]</span></a></div>
+      </div>
+      <div class="island-wrap" aria-label="A floating voxel island representing Kunal's engineering world">
+        <div class="island">
+          <div class="tower"><i></i><i></i><i></i><b></b></div>
+          <div class="tree"><span></span><b></b></div>
+          <div class="grass top"></div><div class="dirt mid"></div><div class="stone low"></div>
+          <div class="packet p1">▣</div><div class="packet p2">▣</div><div class="packet p3">▣</div>
+        </div>
+        <div class="island-label"><span>WORLD SEED</span><strong>GO-90-95</strong></div>
+      </div>
+      <div class="scroll-cue">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="impact" aria-label="Kunal at a glance">
+      <div><span class="ore emerald"></span><strong>ENGINEER</strong><p>Software engineer building reliable systems and thoughtful products</p></div>
+      <div><span class="ore diamond"></span><strong>SCALE</strong><p>Scalable architecture, clean APIs and performance under load</p></div>
+      <div><span class="ore gold"></span><strong>OWN</strong><p>Architecture, delivery, observability and operations</p></div>
+      <div><span class="ore redstone"></span><strong>SHIP</strong><p>Cloud infrastructure with full-stack product sense</p></div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-kicker">BIOME 01 / BASE CAMP</div>
+      <div class="about-grid">
+        <div><h2>BUILT FOR THE<br><span>HARD PARTS.</span></h2></div>
+        <div class="story"><p>I’m a backend-focused software engineer who turns complex operational problems into fast, reliable and scalable systems. I specialize in Go, distributed systems, multi-tenant architecture, real-time services, cloud infrastructure and automation.</p><p>I can design services end to end, build fault-tolerant APIs and scheduling systems, improve observability, automate deployment workflows and create responsive full-stack products when the experience calls for it.</p><div class="coordinates">CURRENT COORDINATES<br><strong>Scrum Digital · Software Engineer · 2024—NOW</strong></div></div>
+      </div>
+    </section>
+
+    <section class="education section" id="education">
+      <div class="section-kicker">BIOME 02 / THE ACADEMY</div>
+      <div class="academy-card">
+        <div class="academy-art" aria-hidden="true"><div class="academy-roof"></div><div class="academy-building"><i></i><i></i><i></i></div></div>
+        <div><span class="quest-label">EDUCATION COMPLETED</span><h2>IIIT UNA</h2><p class="degree">B.Tech · Computer Science &amp; Engineering</p><div class="academy-meta"><span>DEC 2020 — MAY 2024</span><span>UNA, HIMACHAL PRADESH</span></div></div>
+      </div>
+    </section>
+
+    <section class="experience section" id="experience">
+      <div class="section-kicker">BIOME 03 / EXPERIENCE TRAIL</div>
+      <div class="section-head"><h2>WORK QUESTS</h2><p>Select a checkpoint to inspect every responsibility from the résumé.</p></div>
+      <div class="quest-map" role="tablist" aria-label="Work experience">
+        <button class="quest-node active" role="tab" aria-selected="true" data-job="scrum"><span class="node-icon">⚒</span><strong>Scrum Digital</strong><small>Software Engineer · 2024—NOW</small></button>
+        <div class="quest-path" aria-hidden="true"></div>
+        <button class="quest-node" role="tab" aria-selected="false" data-job="magma"><span class="node-icon">◆</span><strong>Magmacray</strong><small>FullStack Intern · JAN—APR 2023</small></button>
+      </div>
+      <article class="quest-log" id="quest-log" aria-live="polite">
+        <div class="quest-log-head"><div><span class="quest-label">CURRENT QUEST</span><h3>Scrum Digital · Software Engineer</h3></div><span>JUNE 2024 — PRESENT</span></div>
+        <ul id="quest-items"></ul>
+      </article>
+    </section>
+
+    <section class="builds section projects" id="projects">
+      <div class="section-kicker">BIOME 04 / PROJECT VILLAGE</div>
+      <div class="section-head"><h2>CRAFTED PROJECTS</h2><p>Two product builds from idea to working experience. Open each crafting table for details.</p></div>
+      <div class="build-grid project-grid">
+        <article class="build-card green" tabindex="0">
+          <div class="build-scene tenants"><div class="block b1"></div><div class="block b2"></div><div class="block b3"></div><div class="beam"></div></div>
+          <div class="card-body"><div class="card-meta"><span>FULL-STACK BUILD</span><span>MERN · WEBSOCKET</span></div><h3>Start Right</h3><p>A one-stop platform for startup needs with real-time communication and personalized discovery.</p><ul><li>ReactJS, NodeJS, ExpressJS, MongoDB</li><li>Real-time text and video via WebSocket</li><li>NLP feeds and recommendations</li><li>25% improvement in result accuracy</li></ul><button class="inspect" data-modal="start-right">Open crafting table <span>[E]</span></button></div>
+        </article>
+        <article class="build-card blue" tabindex="0">
+          <div class="build-scene observability"><div class="radar"></div><div class="signal s1"></div><div class="signal s2"></div><div class="signal s3"></div></div>
+          <div class="card-body"><div class="card-meta"><span>AI BUILD</span><span>NEXT.JS · FIREBASE</span></div><h3>Ask AI</h3><p>A conversational web application built around OpenAI's GPT-3 language model.</p><ul><li>Next.js 13 server components</li><li>Firebase real-time chat storage</li><li>ChatGPT-powered interaction</li><li>SSR-focused content generation</li></ul><button class="inspect" data-modal="ask-ai">Open crafting table <span>[E]</span></button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="inventory section" id="inventory">
+      <div class="section-kicker">BIOME 05 / COMPLETE INVENTORY</div>
+      <div class="inventory-shell">
+        <div class="avatar-card"><div class="avatar"><div class="hair"></div><div class="face"><i></i><i></i></div><div class="body"></div></div><div><span>LVL 24</span><h2>KUNAL VIJAY</h2><p>Backend Engineer</p></div></div>
+        <div class="inventory-grid" aria-label="Technical skills">
+          <button class="slot selected" data-tip="Go · primary tool"><span class="item go">GO</span><b>64</b></button>
+          <button class="slot" data-tip="Python · automation"><span class="item py">PY</span><b>48</b></button>
+          <button class="slot" data-tip="Docker · containers"><span class="item docker">DK</span><b>32</b></button>
+          <button class="slot" data-tip="Kubernetes · orchestration"><span class="item k8s">K8</span><b>24</b></button>
+          <button class="slot" data-tip="AWS · cloud"><span class="item aws">AWS</span><b>18</b></button>
+          <button class="slot" data-tip="WebSockets · realtime"><span class="item ws">WS</span><b>16</b></button>
+          <button class="slot" data-tip="MongoDB · data"><span class="item mongo">DB</span><b>12</b></button>
+          <button class="slot" data-tip="React · interfaces"><span class="item react">RE</span><b>10</b></button>
+        </div>
+        <div class="tooltip" id="tooltip">Go · primary tool</div>
+        <div class="skill-ledger">
+          <div><strong>LANGUAGES</strong><p>Go (Golang), Python, C++, JavaScript, Java, SQL</p></div>
+          <div><strong>CLOUD &amp; DEVOPS</strong><p>Kubernetes (K8s), Docker, Linux/Bash, Git/GitHub, CI/CD, AWS</p></div>
+          <div><strong>SYSTEMS &amp; DATABASES</strong><p>Distributed Systems, WebSockets, REST APIs, MySQL, MongoDB</p></div>
+          <div><strong>WEB TECHNOLOGIES</strong><p>HTML, CSS, ReactJS, NodeJS, ExpressJS, NextJS</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section">
+      <div class="portal" aria-hidden="true"><div></div></div>
+      <div><div class="section-kicker">FINAL BIOME / OPEN PORTAL</div><h2>LET'S BUILD SOMETHING<br><span>THAT SCALES.</span></h2><p>Have a hard systems problem, an ambitious product, or just want to compare architectures?</p><div class="contact-actions"><a class="pixel-button purple" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kunalvijay1101%40gmail.com" target="_blank" rel="noreferrer">Email Kunal</a><a class="text-link" href="https://github.com/kunalVj" target="_blank" rel="noreferrer">GitHub ↗</a><a class="text-link" href="https://www.linkedin.com/in/kunal-vijay/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div>
+    </section>
+  </main>
+
+  <footer><span>© 2026 KUNAL VIJAY</span><span>CRAFTED WITH CODE + CURIOSITY</span><button id="sound" aria-pressed="false">SOUND: OFF</button></footer>
+
+  <dialog id="build-dialog"><button class="close" aria-label="Close">×</button><p class="dialog-tag">PROJECT INSPECTION</p><h2></h2><p class="dialog-copy"></p><div class="flow"></div><p class="dialog-result"></p></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
